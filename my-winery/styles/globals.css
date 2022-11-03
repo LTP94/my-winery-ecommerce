@@ -12,6 +12,34 @@ body, * {
   width: 0px;
 }
 
+@media only screen and (max-width: 800px) {
+  .hero-banner-container h1 {
+    color: black!important;
+    font-size: 10em;
+    margin-left: -20px;
+    text-transform: uppercase;
+}
+
+.hero-banner-container button {
+  border-radius: 15px;
+  padding: 10px 16px;
+  background-color: #f02d34;
+  color: #fff;
+  border: none;
+  margin-top: 40px!important;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  z-index: 10000!important;
+}
+.hero-banner-container h3 {
+  font-size: 4rem;
+  margin-top: 4px;
+  color: #fff;
+  text-shadow: -2px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+}
+
 body{
   background-image: url("../public/nature-g698f413ee_1920.jpg");
   background-position: center;
@@ -659,15 +687,26 @@ margin-top: 160px;
     font-size: 50px;
     margin-left: 5px;
   }
-  .banner-desc .left p{
-    margin:18px;
-  }
-  .banner-desc .right h3{
-    font-size: 45px;
-  }
-  .banner-desc .right p{
+  .banner-desc .left p {
+    margin: 18px;
+    color: #fff;
+    text-shadow: -2px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+.banner-desc .right h3 {
+  font-size: 45px;
+  color: #fff;
+  text-shadow: -2px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+  .banner-desc .right p {
     font-size: 18px;
-  }
+    color: #edec9c;
+    text-shadow: -2px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.banner-desc button {
+  margin-top: 18px;
+  margin-left: 88px;
+}
   .banner-desc .right .company-desc{
     font-size: 14px;
   }
