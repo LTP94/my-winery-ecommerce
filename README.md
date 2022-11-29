@@ -1,6 +1,6 @@
 # my-winery-ecommerce
 An e-commerce website
-Responsive Modern Full Stack Ecommerce application with Payments functionality.
+Responsive Modern Full Stack application with Payments functionality.
 
 ## You can watch the app live here:
 
